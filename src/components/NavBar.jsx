@@ -3,7 +3,7 @@ import React from 'react';
 function NavBar({ title, pageheader, links }) {
   return (
 
-    <nav className="w-full flex items-center justify-between bg-violet-500 p-4">
+    <nav className="w-full flex items-center justify-between bg-[#032825] p-4">
       <div>
         <h1 className="text-white text-2xl font-bold">{title}</h1>
       </div>
