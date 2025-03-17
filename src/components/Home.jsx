@@ -4,29 +4,17 @@ import NavBar from './NavBar'
 function Home() {
 
   const navLinks = [
-    { title: 'Home', path: '/home' },
-    { title: 'About', path: '/about' },
-    { title: 'Contact', path: '/contact' },
-    { title: 'Services', path: '/services' },
-    { title: 'Portfolio', path: '/portfolio' },
-    { title: 'Blog', path: '/blog' },
-    { title: 'FAQ', path: '/faq' },
-    { title: 'Login', path: '/login' },
-    { title: 'Sign Up', path: '/signup' },
-    { title: 'Logout', path: '/logout' },
-  ]
+    { title: 'About', path: '#about' },
+    { title: 'Skills', path: '#skills' },
+    { title: 'Portfolio', path: '#portfolio' },
+    { title: 'Contact Me', path: '#contact' },
+  ];
  
   return (
     <>
-
-     <NavBar 
-     title="Francisca"
-     links={navLinks} 
-     />
-
-     <div className="flex items-center justify-center h-screen">
-       {/* <h1 className="text-4xl font-bold">Home Page</h1>  */}
-    </div>
+     <NavBar title =" FRANCISCA" links={navLinks} />
+     <div className="flex items-center justify-center h-screen-5vh">
+     </div>
     </>
   )
 }

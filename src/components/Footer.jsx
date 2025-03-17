@@ -8,7 +8,7 @@ export default function Footer() {
       <footer style={footerStyle}>
         <div style={containerStyle}>
           
-           <p>&copy; {new Date().getFullYear()} Francisca Nabwire. All rights reserved.</p>
+           <p>&copy; {new Date().getFullYear()} Francisca Nabwire</p>
         </div>
         
         </footer>
