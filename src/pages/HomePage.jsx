@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function HomePage() {
-  const [count, setCount] = React.useState(0);
 
   return (
     <div className="min-h-screen-70vh bg-[#F5F5DC]">
@@ -14,11 +13,10 @@ function HomePage() {
             Hi, I am <span className="text-[#98760B]">Francisca</span>.<br /> Software Developer
           </h1>
           <h3 className="text-gray-700 text-lg leading-relaxed">
-          Front-end developer with a strong ICT Systems Support and Help Desk operations background.
-          Proficient in creating responsive and visually appealing websites using modern web
-          technologies. 
-          Adept at providing technical assistance, troubleshooting, and ensuring seamless
-          IT operations within organizations.
+          Software Developer with a strong ICT Systems Support and Help Desk operations background.
+          <br/>Skilled in designing and implementing user-focused solutions and responsive web applications. 
+          <br />Adept at collaborating with teams, resolving technical challenges, and staying updated with emerging technologies to 
+          deliver high-quality projects. 
           
           </h3>
           <div className="flex justify-center md:justify-start space-x-6 mt-4">

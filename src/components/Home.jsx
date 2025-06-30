@@ -1,22 +1,26 @@
-import React from 'react'
-import NavBar from './NavBar'
+import React from 'react';
+import HomePage from '../pages/HomePage';
+import ContactMe from './ContactMe';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
 
 function Home() {
-
-  const navLinks = [
-    { title: 'About', path: '#about' },
-    { title: 'Skills', path: '#skills' },
-    { title: 'Portfolio', path: '#portfolio' },
-    { title: 'Contact Me', path: '#contact' },
-  ];
- 
   return (
     <>
-     <NavBar title =" FRANCISCA" links={navLinks} />
-     <div className="flex items-center justify-center h-screen-5vh">
-     </div>
+      <div id="home">
+        <HomePage />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="portfolio">
+        <Portfolio />
+      </div>
+      <div id="contact">
+        <ContactMe />
+      </div>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
