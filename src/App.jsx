@@ -15,14 +15,13 @@ function App() {
       <NavBar />
       <Routes>
 
-        <Route path="/" element={<HomePage />} />
-        <Route path="/home" element={<Home />} />
+        {/* <Route path="/" element={<HomePage />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="#skills" element={<Skills />} />
-        {/* <Route path="/form" element={<SimpleForm />} /> */}
         <Route path="#portfolio" element={<Portfolio />} />
         <Route path="#contact" element={<ContactMe />} />
       </Routes>
-      <Footer />
+      
     </Router>
   );
 }
