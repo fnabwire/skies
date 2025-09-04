@@ -5,6 +5,7 @@ import portfolio2 from "../images/portfolio2.png";
 import portfolio3 from "../images/portfolio3.jpg";
 import portfolio4 from "../images/portfolio4.jpg";
 import portfolio5 from "../images/portfolio5.jpg";
+import portfolio6 from "../images/portfolio6.jpeg";
 
 const Portfolio = () => {
   const [filterKey, setFilterKey] = useState("*");
@@ -54,6 +55,12 @@ const Portfolio = () => {
       category: "filter-1",
       image: portfolio5,
       link: "https://franciscacleaningservices.netlify.app/",
+    },
+    {
+      title: "Portfolio Website",
+      category: "filter-1",
+      image: portfolio6,
+      link: "https://franciscaportfolio.netlify.app/",
     },
   ];
 
