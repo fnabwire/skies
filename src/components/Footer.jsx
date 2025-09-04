@@ -16,7 +16,7 @@ export default function Footer() {
 }
 
 const footerStyle = {
-  backgroundColor: '#98760B',
+  backgroundColor: '#012169',
   color: 'white',
   padding: '10px 0',
 }
@@ -36,5 +36,5 @@ const linkStyle = {
 }
 
 linkStyle[':hover'] = {
-  color: '#032825',
+  color: '#0E97B9',
 }

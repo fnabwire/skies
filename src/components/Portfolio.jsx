@@ -64,10 +64,10 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="bg-[#F5F5DC] py-12">
+  <div className="bg-[#F0F8FF] py-12">
       <div className="container mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-[#032825]">PORTFOLIO</h2>
+          <h2 className="text-3xl font-bold text-[#012169]">PORTFOLIO</h2>
         </div>
 
         {/* Filter Buttons */}
@@ -77,8 +77,8 @@ const Portfolio = () => {
               key={f.filter}
               className={`px-4 py-2 rounded-md font-semibold transition ${
                 filterKey === f.filter
-                  ? "bg-[#98760B] text-white"
-                  : "bg-gray-200 text-gray-800 hover:bg-[#98760B] hover:text-white"
+                  ? "bg-[#012169] text-white"
+                  : "bg-gray-200 text-gray-800 hover:bg-[#0E97B9] hover:text-white"
               }`}
               onClick={() => setFilterKey(f.filter)}
             >
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 <div className="absolute bottom-0 left-0 right-0 bg-white p-4">
                   <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
                   <a
-                    className="inline-block mt-2 px-3 py-1 text-white bg-[#98760B] rounded-md transition hover:bg-[#98760B]"
+                    className="inline-block mt-2 px-3 py-1 text-white bg-[#0E97B9] rounded-md transition hover:bg-[#012169]"
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
